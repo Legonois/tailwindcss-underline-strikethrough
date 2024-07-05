@@ -8,7 +8,9 @@ supported by tailwindcss out of the box
 ## Installation
 
 `npm install tailwindcss-underline-strikethrough`
+
 `pnpm add tailwindcss-underline-strikethrough`
+
 `yarn add tailwindcss-underline-strikethrough`
 
 ## Usage
