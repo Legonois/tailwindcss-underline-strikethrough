@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Wesley Baldwin wnbaldwin@ksu.edu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
