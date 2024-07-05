@@ -6,10 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Wesley Baldwin wnbaldwin@ksu.edu",
+  "keywords": [
+    "tailwindcss",
+    "text-decoration",
+    "underline",
+    "strikethrough",
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Legonois/tailwindcss-underline-strikethrough.git"
+  },
+  "author": "Wesley Baldwin, wnbaldwin@ksu.edu",
   "license": "MIT",
   "dependencies": {
     "tailwindcss": "^3.4.4"
-  }
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
 }
