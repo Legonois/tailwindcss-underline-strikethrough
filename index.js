@@ -1,6 +1,7 @@
 const plugin = require('tailwindcss/plugin');
 
-const underlineStrikethroughUtility = plugin(function({ addUtilities, e }) {
+module.exports = plugin(
+	({ addUtilities}) => {
     const newUtilities = {
         '.underline-strikethrough': {
         'text-decoration': 'underline line-through',
@@ -8,5 +9,3 @@ const underlineStrikethroughUtility = plugin(function({ addUtilities, e }) {
     };
     addUtilities(newUtilities, ['responsive', 'hover']);
 });
-
-module.exports = underlineStrikethroughUtility;
